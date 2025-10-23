@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { useServices, useTheme } from '../App';
-import { Service } from '../types';
-import { ServiceModal } from './ServiceModal';
+import { useServices, useTheme } from '../App.tsx';
+import { Service } from '../types.ts';
+import { ServiceModal } from './ServiceModal.tsx';
 
 const Icon = ({ name }: { name: string }) => <span className="material-symbols-outlined">{name}</span>;
 

@@ -2,15 +2,15 @@
 import React, { useState, useEffect, createContext, useContext, useMemo, useCallback } from 'react';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 
-import { Layout } from './components/Layout';
-import { LoginPage } from './components/Login';
-import { DashboardPage } from './components/Dashboard';
-import { SchedulePage } from './components/Schedule';
-import { ServiceRegistryPage } from './components/ServiceRegistry';
-import { ReportsPage } from './components/Reports';
-import { SettingsPage } from './components/Settings';
-import { Service, Appointment, AppointmentStatus, Transaction } from './types';
-import { supabase } from './services/supabaseClient';
+import { Layout } from './components/Layout.tsx';
+import { LoginPage } from './components/Login.tsx';
+import { DashboardPage } from './components/Dashboard.tsx';
+import { SchedulePage } from './components/Schedule.tsx';
+import { ServiceRegistryPage } from './components/ServiceRegistry.tsx';
+import { ReportsPage } from './components/Reports.tsx';
+import { SettingsPage } from './components/Settings.tsx';
+import { Service, Appointment, AppointmentStatus, Transaction } from './types.ts';
+import { supabase } from './services/supabaseClient.ts';
 
 // --- THEME CONTEXT ---
 type Theme = 'light' | 'dark';

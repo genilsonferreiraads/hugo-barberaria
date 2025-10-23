@@ -1,9 +1,9 @@
 
 import React, { useMemo } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-import { WEEKLY_REVENUE_DATA } from '../constants';
-import { Transaction } from '../types';
-import { useTransactions } from '../App';
+import { WEEKLY_REVENUE_DATA } from '../constants.ts';
+import { Transaction } from '../types.ts';
+import { useTransactions } from '../App.tsx';
 
 interface KpiCardProps {
     title: string;

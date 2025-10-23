@@ -1,8 +1,8 @@
 
 import React, { useState, useMemo } from 'react';
-import { NewAppointmentModal } from './NewAppointmentModal';
-import { useAppointments } from '../App';
-import { Appointment } from '../types';
+import { NewAppointmentModal } from './NewAppointmentModal.tsx';
+import { useAppointments } from '../App.tsx';
+import { Appointment } from '../types.ts';
 
 // --- Date Helper Functions ---
 const getStartOfWeek = (date: Date): Date => {

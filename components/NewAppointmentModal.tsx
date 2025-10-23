@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { useServices } from '../App';
-import { Service, Appointment, AppointmentStatus } from '../types';
+import { useServices } from '../App.tsx';
+import { Service, Appointment, AppointmentStatus } from '../types.ts';
 
 interface NewAppointmentModalProps {
     isOpen: boolean;

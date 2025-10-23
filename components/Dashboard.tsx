@@ -1,10 +1,10 @@
 
 import React, { useState, useCallback, useMemo } from 'react';
-import { Appointment, AppointmentStatus, Transaction, PaymentMethod } from '../types';
-import { generateDailySummary } from '../services/geminiService';
-import { NewAppointmentModal } from './NewAppointmentModal';
-import { useAppointments, useTransactions } from '../App';
-import { FinalizeAppointmentModal } from './FinalizeAppointmentModal';
+import { Appointment, AppointmentStatus, Transaction, PaymentMethod } from '../types.ts';
+import { generateDailySummary } from '../services/geminiService.ts';
+import { NewAppointmentModal } from './NewAppointmentModal.tsx';
+import { useAppointments, useTransactions } from '../App.tsx';
+import { FinalizeAppointmentModal } from './FinalizeAppointmentModal.tsx';
 
 const Icon = ({ name }: { name: string }) => <span className="material-symbols-outlined text-2xl text-zinc-500 dark:text-zinc-400">{name}</span>;
 
