@@ -1,6 +1,5 @@
-
 import React, { useState, useEffect } from 'react';
-import { useServices } from '../App.tsx';
+import { useServices } from '../contexts.tsx';
 import { Service } from '../types.ts';
 
 interface ServiceModalProps {

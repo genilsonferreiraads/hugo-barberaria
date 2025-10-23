@@ -1,6 +1,5 @@
-
 import React, { useState, useMemo, useEffect } from 'react';
-import { useServices, useTransactions } from '../App.tsx';
+import { useServices, useTransactions } from '../contexts.tsx';
 import { Service, PaymentMethod } from '../types.ts';
 
 const paymentMethodOptions = Object.values(PaymentMethod);

@@ -1,7 +1,6 @@
-
 import React, { useState, useMemo } from 'react';
 import { NewAppointmentModal } from './NewAppointmentModal.tsx';
-import { useAppointments } from '../App.tsx';
+import { useAppointments } from '../contexts.tsx';
 import { Appointment } from '../types.ts';
 
 // --- Date Helper Functions ---

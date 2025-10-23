@@ -1,6 +1,5 @@
-
 import React, { useState } from 'react';
-import { useServices, useTheme } from '../App.tsx';
+import { useServices, useTheme } from '../contexts.tsx';
 import { Service } from '../types.ts';
 import { ServiceModal } from './ServiceModal.tsx';
 
